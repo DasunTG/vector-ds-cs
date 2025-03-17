@@ -18,13 +18,13 @@ Before running this project, ensure you have the .NET SDK installed on your syst
 ### Step 2: Clone the Repository
 Clone this repository using the following command:
 ```sh
-git clone <repository-link>
+git clone https://github.com/AmilaK29/vector-ds-cs.git
 ```
 
 ### Step 3: Navigate to the Project Directory
 Change into the project directory:
 ```sh
-cd <project-directory>
+cd vector-ds-cs
 ```
 
 ### Step 4: Build the Project
