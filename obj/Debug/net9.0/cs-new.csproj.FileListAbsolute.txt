@@ -1,0 +1,14 @@
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\bin\Debug\net9.0\cs-new.exe
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\bin\Debug\net9.0\cs-new.deps.json
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\bin\Debug\net9.0\cs-new.runtimeconfig.json
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\bin\Debug\net9.0\cs-new.dll
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\bin\Debug\net9.0\cs-new.pdb
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.AssemblyInfoInputs.cache
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.AssemblyInfo.cs
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.csproj.CoreCompileInputs.cache
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.dll
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\refint\cs-new.dll
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.pdb
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.genruntimeconfig.cache
+C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\ref\cs-new.dll
