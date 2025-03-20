@@ -65,10 +65,16 @@ namespace Vector
         {
             if (Count == Capacity)
             {
+                // First this checks whether the capacity is zero, if it is, it will set the capacity to 1
+                // Otherwise, it will double the capacity
                 resize(Capacity == 0 ? 1 : Capacity * 2);
             }
 
+
+            // Add the new element to the end of the array    
             data[Count] = element;
+
+            // Increment the count
             Count++;
         }
 
@@ -80,8 +86,11 @@ namespace Vector
         {
             for (var i = 0; i < Count; i++)
             {
+                // Check if the element is equal to the current element
                 if (data[i].Equals(element)) return i;
             }
+
+            // If the element is not found, return -1
             return -1;
         }
 
@@ -94,6 +103,9 @@ namespace Vector
             // Ensure capacity doubles only when necessary
             if (Count == Capacity)
             {
+                // Double the capacity
+                // If the count is 0, set the capacity to 1
+                // Otherwise, double the capacity
                 resize(Count == 0 ? 1 : Capacity * 2);    
             }
 
@@ -105,6 +117,8 @@ namespace Vector
 
             // Insert the new element
             data[index] = element;
+
+            // Increment the count
             Count++;
         }
 
@@ -113,6 +127,7 @@ namespace Vector
             // Ensure that we are only doubling the capacity and not applying other values
             if (newCapacity <= Capacity) return; 
 
+            // Create a new array with the new capacity (doubled capacity)
             T[] newData = new T[newCapacity];
 
             // Copy existing elements
@@ -121,22 +136,22 @@ namespace Vector
                 newData[i] = data[i];
             }
 
+            // Update the data array to point to the new array
             data = newData;
         }
 
         public void Clear()  
         {   
-            int initialCount = Count;
-            for(int i = 0; i < initialCount; i++){
-                RemoveAt(0);
-            }
-
+            // Set the count to 0
+            // So this simply clears the logical view of the array
             Count=0; 
             
         }
 
         public bool Contains(T element)
         {
+            // This uses the IndexOf method to check if the element is in the array
+            // If the element is in the array, the IndexOf method will return the index of the element
             if(IndexOf(element) != -1)return true;
 
             return false;
@@ -145,10 +160,13 @@ namespace Vector
 
         public bool Remove(T element)
         {
+            // This method removes the first occurrence of the element in the array
            int index= IndexOf(element);
-           if(index== -1)
-           return false;
 
+           // If the element is not in the array, return false
+           if(index== -1) return false;
+
+            // Remove the element at the index
            RemoveAt(index);
            return true;
         }
@@ -159,9 +177,10 @@ namespace Vector
             if (index < 0 || index >= Count)
             throw new IndexOutOfRangeException("index is out of range");
 
-            for(int i=index; i<Count-1; i++)
-            data[i]=data[i+1];
+            // Shift elements to the left
+            for(int i=index; i<Count-1; i++) data[i]=data[i+1];
 
+            // Decrement the count
             Count--;
         }
 
@@ -169,6 +188,8 @@ namespace Vector
         {
             // You should replace this plug by your code.
             string result = "";
+
+            // Loop through the elements in the array and append them to the result string
             result = result + "[";
             for(int i = 0 ; i < Count; i++){
                 result = result + data[i];
