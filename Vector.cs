@@ -67,6 +67,7 @@ namespace Vector
             {
                 resize(Capacity == 0 ? 1 : Capacity * 2);
             }
+
             data[Count] = element;
             Count++;
         }
@@ -93,7 +94,7 @@ namespace Vector
             // Ensure capacity doubles only when necessary
             if (Count == Capacity)
             {
-                resize(Math.Max(Capacity * 2, 1));
+                resize(Count == 0 ? 1 : Capacity * 2);    
             }
 
             // Shift elements to the right
@@ -123,7 +124,7 @@ namespace Vector
             data = newData;
         }
 
-        public void Clear()
+        public void Clear()  
         {   
             int initialCount = Count;
             for(int i = 0; i < initialCount; i++){
@@ -136,10 +137,7 @@ namespace Vector
 
         public bool Contains(T element)
         {
-            for(int i=0;i<Count;i++){
-                if(data[i].Equals(element))
-                return true;
-            }
+            if(IndexOf(element) != -1)return true;
 
             return false;
 
