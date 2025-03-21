@@ -145,6 +145,8 @@ namespace Vector
             // Set the count to 0
             // So this simply clears the logical view of the array
             Count=0; 
+            for(int i =0;i<data.Length;i++)
+152         data[i]=default;
             
         }
 

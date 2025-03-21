@@ -12,3 +12,18 @@ C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\refin
 C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.pdb
 C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\cs-new.genruntimeconfig.cache
 C:\Users\Amila Kasun\Desktop\Edu\Programming\Malli\cs-new\obj\Debug\net9.0\ref\cs-new.dll
+C:\Users\Msi\Desktop\vector-ds-cs\bin\Debug\net9.0\cs-new.exe
+C:\Users\Msi\Desktop\vector-ds-cs\bin\Debug\net9.0\cs-new.deps.json
+C:\Users\Msi\Desktop\vector-ds-cs\bin\Debug\net9.0\cs-new.runtimeconfig.json
+C:\Users\Msi\Desktop\vector-ds-cs\bin\Debug\net9.0\cs-new.dll
+C:\Users\Msi\Desktop\vector-ds-cs\bin\Debug\net9.0\cs-new.pdb
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.AssemblyInfoInputs.cache
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.AssemblyInfo.cs
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.csproj.CoreCompileInputs.cache
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.sourcelink.json
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.dll
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\refint\cs-new.dll
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.pdb
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\cs-new.genruntimeconfig.cache
+C:\Users\Msi\Desktop\vector-ds-cs\obj\Debug\net9.0\ref\cs-new.dll
