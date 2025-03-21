@@ -106,7 +106,11 @@ namespace Vector
                 // Double the capacity
                 // If the count is 0, set the capacity to 1
                 // Otherwise, double the capacity
-                resize(Count == 0 ? 1 : Capacity * 2);    
+                T[] newData = new T[Capacity * 2]; // Double the capacity
+108             for (int i = 0; i < Count; i++)
+109                 newData[i] = data[i];
+110
+111             data = newData;    
             }
 
             // Shift elements to the right
